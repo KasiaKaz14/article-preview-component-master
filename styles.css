@@ -1,0 +1,96 @@
+:root {
+  --main-bg-color: hsl(210, 46%, 95%);
+  --bg-color: #fff;
+  --headline-color: hsl(217, 19%, 35%);
+  --description-color: hsl(214, 17%, 51%);
+  --name-color: hsl(217, 19%, 35%);
+  --date-color: hsl(212, 23%, 69%);
+  --font-family: "Manrope", sans-serif;
+  --font-size: 13px;
+  --light-font-weight: 500;
+  --bold-font-weight: 700;
+  --border-radius: 10px;
+  --border-top-left-radius: 10px;
+  --border-top-right-radius: 10px;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: var(--font-family);
+}
+
+.main-section {
+  background-color: var(--bg-color);
+  width: 375px;
+  margin: 0 auto;
+  margin-top: 125px;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+}
+
+.main-photo {
+  width: 375px;
+  height: 220px;
+  border-top-left-radius: var(--border-top-left-radius);
+  border-top-right-radius: var(--border-top-right-radius);
+}
+
+.headline {
+  color: var(--headline-color);
+  font-weight: var(--bold-font-weight);
+  width: 290px;
+  font-size: 18px;
+  margin: 0;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+
+.description {
+  color: var(--description-color);
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 35px;
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 45px;
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.data-section {
+  margin: 0;
+  margin-left: 10px;
+  position: absolute;
+  bottom: 60px;
+}
+
+.name {
+  color: var(--name-color);
+  font-weight: var(--bold-font-weight);
+  margin: 0;
+  margin-left: 80px;
+  margin-top: -42px;
+}
+
+.date {
+  color: var(--date-color);
+  font-weight: var(--light-font-weight);
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
